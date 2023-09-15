@@ -1,0 +1,283 @@
+main {
+    margin-top: 60px;
+  }
+
+  #jumbotron {
+    width: 100%;
+  }
+  
+  .jumbotron {
+    background-image: url("https://advance2-exam.netlify.app/assets/jumbotron-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .bg-jumbotron{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .header-flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  .jumbotron-title {
+    color: rgb(33, 45, 64);
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 20px;
+    text-align: left;
+    display: flex;
+  }
+  
+  .jumbotron-text {
+    color: rgb(33, 45, 64);;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 20px;
+    border-bottom: 8px solid rgb(33, 45, 64);
+  }
+
+  .jumbotron-text2{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  button {
+    background-color: rgb(33, 45, 64);
+    border-style: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    transform: translateY(5px);
+  }
+  
+  .jumbotron-img {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+  }
+  
+
+/* Navigation  */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: white;
+    z-index: 100;
+  }
+  
+  .title {
+    color: rgb(33, 45, 64);
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    position: absolute;
+    padding: 0;
+    margin: 14px 30px 0px;
+  }
+  
+  nav {
+    position: absolute;
+    right: 0;
+    margin: 14px 30px 0px;
+  }
+  
+  a {
+    color: rgb(33, 45, 64);;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+
+
+  /* Aside  */
+  aside {
+    max-width: 25%;
+    max-height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px gainsboro;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+  }
+  
+  .aside-title {
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25pt;
+    border-top: 5px solid rgb(33, 45, 64);;
+    border-radius: 5px;
+  }
+  
+  .profile-picture {
+    border-style: solid;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 0 0 20px gainsboro;
+  }
+  
+
+  /* Main Contents  */
+  .main-content {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+  }
+  
+  .content {
+    margin-left: 10%;
+    max-width: 70%;
+  }
+  
+  article {
+    max-width: 100%;
+  }
+  
+  .article-title {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0 30px;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .project-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .project {
+    width: 600px;
+    height: 330px;
+    margin: 10px 30px;
+    border-top: 10px solid rgb(33, 45, 64);;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px gainsboro;
+  }
+  
+  .project-title {
+    color: rgb(33, 45, 64);;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;;
+  }
+  
+  .project-description{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+  }
+  
+  iframe {
+    padding: 10px;
+    margin-left: 120px;
+    margin-right: auto;
+    box-shadow: 0 0 40px gainsboro;
+  }
+  
+
+  /* Footer  */
+  footer {
+    background-color: rgb(210, 217, 228);;
+  }
+  
+  .center-footer {
+    margin: 0 20px;
+  }
+  
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .left-footer {
+    margin: 0 auto 0 40px;
+  }
+  
+  .right-footer {
+    margin: 0 40px 0 auto;
+  }
+  
+  .info-left {
+    text-align: left;
+    width: 100%;
+    color: rgb(224, 251, 252);
+  }
+  
+  .info-right {
+    text-align: right;
+    width: 100%;
+    color: rgb(224, 251, 252);
+  }
+  
+  .info-top {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(33, 45, 64);
+  }
+  
+  .info-center {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    font-family: 'Dancing Script', cursive;
+    border-top: 1px solid white;
+    color: rgb(33, 45, 64);
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa-instagram-square,
+  .fa-twitter-square,
+  .fa-facebook-square,
+  .fa-envelope {
+    padding: 5px;
+    font-size: 30px;
+    color: rgb(33,45,64);
+  }
+  
+
+  /* Like Dislike button  */
+  .toggle {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .btn {
+    background-color: transparent;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
